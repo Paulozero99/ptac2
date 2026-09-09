@@ -1,11 +1,12 @@
 //import { useState } from 'react'
+import Decrementar from "./components/Decrement"
+import Incrementar from "./components/Increment"
 
 export default function App() {
-    //lógica de programação
     return (
-        //rederização na viewport
         <>
-            <p>teste</p>
+            <Decrementar/>
+            <Incrementar/>
         </>
     )
 }
